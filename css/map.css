@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(135deg, #71b7e6, #1c3fa8);
+}
+
+#map {
+  padding-top: 50px;
+  /* height: 700px; */
+  width: 100%;
+}
+
+.center-div {
+  text-align: center;
+  transition: all 0.7s;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+.searchButton {
+  width: 30px;
+  height: 26px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.get-back-button {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  background: linear-gradient(-135deg, #71b7e6, #1c3fa8);
+  padding: 0 10px;
+  border-radius: 25px;
+}
+
+.mg-bottom {
+  margin-bottom: 10px;
+}
+.mg-top {
+  margin-top: 20px;
+}
+
+.profile-logo{
+  width: 23px;
+}
+
+

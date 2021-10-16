@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HealthyRadar</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/utilities.css" />
+    <link rel="stylesheet" href="./css/trans.css" />
+    <link rel="stylesheet" href="./css/map.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container-trans">
+      <!-- Navbar -->
+      <div class="navbar">
+        <div class="container flex">
+          <h1 class="logo">Healtyradar</h1>
+          <nav>
+            <ul>
+              <li><a href="index.html">Начало</a></li>
+              <li><a href="features.html">Инфо</a></li>
+              <li><a href="docs.html">Документация</a></li>
+              <li><a href="our-team.html">Нашият екип</a></li>
+              <div class="login-reg">
+                <a class="" href="./login-pages/login01.html">
+               <img class="profile-logo" src="./images/logos/login-icon.png" alt="">
+               </a>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="wrap">
+        <div class="search">
+          <input
+            type="text"
+            class="searchTerm"
+            placeholder="Потърси зони, заведения, и т.н"
+          />
+          <button type="submit" class="searchButton">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+      <div class="center-div">
+        <div id="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55956.77753607209!2d27.4397548349496!3d42.51565868145204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a69266f9fc9d91%3A0x400a01269bf4df0!2sBurgas!5e0!3m2!1sen!2sbg!4v1634253637829!5m2!1sen!2sbg"
+            width="1200"
+            height="500"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+      <div class="mg-bottom"></div>
+      <footer class="footer color-mix py-5">
+        <div class="container grid grid-3">
+          <div>
+            <h1>Healtyradar</h1>
+            <p>Copyright All4One &copy; 2021</p>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="index.html">Начало</a></li>
+              <li><a href="features.html">Инфо</a></li>
+              <li><a href="docs.html">Документация</a></li>
+              <li><a href="our-team.html">Нашият екип</a></li>
+            </ul>
+          </nav>
+          <div class="social">
+            <a href="#"><i class="fab fa-github fa-2x"></i></a>
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
